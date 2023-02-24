@@ -13,7 +13,7 @@ All the things I use. This targets OSX only
 2. Clone into a new hidden directory at the root
 
    ```sh
-   git clone git@github.com:AndresRodH/dotfiles.git ~/.dotfiles
+   git clone git@github.com:CFSJthomas/dotfiles.git ~/.dotfiles
    ```
 
 3. Run the install script
