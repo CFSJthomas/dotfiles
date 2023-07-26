@@ -19,7 +19,7 @@ All the things I use. This targets OSX only
 1. Clone into a new hidden directory at the root. Make sure that you are using your fork (if forked)
 
    ```sh
-   git clone git@github.com:CFSJthomas/dotfiles.git ~/.dotfiles
+   git clone https://github.com/CFSJthomas/dotfiles.git ~/.dotfiles
    ```
 
 2. Run the install script
