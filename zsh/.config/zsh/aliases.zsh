@@ -1,12 +1,20 @@
 # opens lazydocker
 alias ld='lazydocker'
+
 # opens lazygit
 alias lg='lazygit'
+
 # list files
-alias l='colorls --group-directories-first --almost-all'
+alias ls='exa --group-directories-first'
+
 # detailed list view
-alias ll='colorls --group-directories-first --almost-all --long'
-# Allow the use of the z plugin to easily navigate directories
-. /usr/local/etc/profile.d/z.sh
-alias gitgone="git fetch -p && git branch -vv | grep 'origin/.*: gone]' | awk '{print $1}' | xargs git branch -D"
-alias vim='lvim'
+alias ll='exa --group-directories-first --long'
+
+# the better vim
+alias vim='nvim'
+
+# reload zsh config
+alias zshreload='source ~/.zshrc'
+
+# clear all local git branches
+alias gitprune="git for-each-ref --format '%(refname:short)' refs/heads | grep -v "master\|main" | xargs git branch -D"

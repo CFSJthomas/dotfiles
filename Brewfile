@@ -4,6 +4,7 @@ tap "homebrew/core"
 tap "jesseduffield/lazydocker"
 tap "jesseduffield/lazygit"
 
+brew "exa"
 brew "stow"
 brew "neovim"
 brew "node", link: false
@@ -14,7 +15,9 @@ brew "tree"
 brew "yarn"
 brew "jesseduffield/lazydocker/lazydocker"
 brew "jesseduffield/lazygit/lazygit"
+brew "zellij"
 
-cask "font-jetbrainsmono-nerd-font"
+cask "raycast"
+cask "font-jetbrains-mono-nerd-font"
 cask "iterm2"
 cask "fig"
